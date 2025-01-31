@@ -11,7 +11,7 @@ The ER diagram represents the relationships between the following entities:
 5. Movies: Films associated with events.
 6. Venues: Locations where events take place.
 
-**Relationships:**
+**Relationships:** \n
 User -> Booking: One user can make multiple bookings. 
 transactions -> Bookings : 1 transaction can have multiple bookings. 
 Ex: A user books tickets for multiple movies or showtimes in a single payment, all those bookings should be linked to the same transaction.
